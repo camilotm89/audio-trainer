@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Header from './components/Header'
+import Footer from './components/Footer'
 import Home from './pages/Home'
 import CompasGame from './components/CompasGame'
 import FrequencyGame from './components/FrequencyGame'
@@ -21,6 +22,7 @@ function App() {
       ) : (
         <Home onSelectGame={setActiveGameId} />
       )}
+      <Footer />
     </div>
   )
 }

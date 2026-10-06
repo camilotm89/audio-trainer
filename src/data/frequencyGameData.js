@@ -43,4 +43,25 @@ export const frequencyGameData = [
     filter: { type: 'highpass', frequency: 350, label: '350 Hz' },
     frequencyOptions: ['350 Hz', '900 Hz', '2200 Hz', '6500 Hz'],
   },
+  {
+    id: 6,
+    audioUrl: '/audio/PianoConcertoK414_Full_Preview.mp3',
+    band: 'Agudos',
+    filter: { type: 'lowpass', frequency: 1800, label: '1800 Hz' },
+    frequencyOptions: ['300 Hz', '1000 Hz', '1800 Hz', '6000 Hz'],
+  },
+  {
+    id: 7,
+    audioUrl: '/audio/3DMARCoPianoSolo1_Full_Preview.mp3',
+    band: 'Bajos',
+    filter: { type: 'highpass', frequency: 400, label: '400 Hz' },
+    frequencyOptions: ['250 Hz', '400 Hz', '1800 Hz', '5500 Hz'],
+  },
+  {
+    id: 8,
+    audioUrl: '/audio/TheSagaOfHarrisonCrabfeathers_Preview.mp3',
+    band: 'Medios',
+    filter: { type: 'notch', frequency: 1200, Q: 1.5, label: '1200 Hz' },
+    frequencyOptions: ['350 Hz', '1200 Hz', '2800 Hz', '6200 Hz'],
+  },
 ]
