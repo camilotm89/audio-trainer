@@ -31,14 +31,14 @@ export const frequencyGameData = [
   },
   {
     id: 4,
-    audioUrl: '/audio/sample-4.mp3',
+    audioUrl: '/audio/track4.mp3',
     band: 'Agudos',
     filter: { type: 'lowpass', frequency: 2500, label: '2500 Hz' },
     frequencyOptions: ['150 Hz', '800 Hz', '2500 Hz', '7000 Hz'],
   },
   {
     id: 5,
-    audioUrl: '/audio/sample-5.mp3',
+    audioUrl: '/audio/track5.mp3',
     band: 'Bajos',
     filter: { type: 'highpass', frequency: 350, label: '350 Hz' },
     frequencyOptions: ['350 Hz', '900 Hz', '2200 Hz', '6500 Hz'],
